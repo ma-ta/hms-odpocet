@@ -4,12 +4,12 @@ Utilita na odpočet času a vypnutí PC
 
 ## Funkce
 
-- odpočet času
+- odpočet času, pozastavení odpočtu
 - vypnutí PC nebo odhlášení uživatele
 - zobrazení miniaturní aplikace vždy v popředí
 - znázornění odpočtu progress barem na hlavním panelu
 - minimalizace do tray ikony
-- systémová oznámení
+- systémová oznámení před koncem odpočtu
 
 ## Screenshoty
 
