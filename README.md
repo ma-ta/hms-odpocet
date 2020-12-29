@@ -1,8 +1,8 @@
 # HMS Odpočet
 
-Utilita na odpočet času a vypnutí PC
+> Utilita na odpočet času a vypnutí PC
 
-## Funkce
+### Funkce:
 
 - odpočet času, pozastavení odpočtu
 - vypnutí PC nebo odhlášení uživatele
@@ -11,7 +11,7 @@ Utilita na odpočet času a vypnutí PC
 - minimalizace do tray ikony
 - systémová oznámení před koncem odpočtu
 
-## Screenshoty
+### Screenshoty:
 
 ![HMS Odpočet](/hms-odpocet-1.png)
 
