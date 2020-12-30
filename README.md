@@ -11,6 +11,12 @@
 - minimalizace do tray ikony
 - systémová oznámení před koncem odpočtu
 
+### Ke stažení:
+
+**Kompatibilita:** Windows XP SP3 &ndash; Windows 10 20H2 (ověřeno)
+
+*Starý školní projekt v Delphi (absence zdrojových kódů => finální verze)*
+
 ### Screenshoty:
 
 ![HMS Odpočet](/hms-odpocet-1.png)
