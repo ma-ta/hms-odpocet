@@ -1,0 +1,19 @@
+HMS Odpočet
+
+Freeware | © 2010–2020 Martin TÁBOR
+
+
+Instalátor extrahuje jeden spustitelný EXE soubor do Vámi zvolené složky.
+
+Aplikaci je poté možné spustit nebo odstranit jednoduchým smazáním daného souboru.
+
+
+- Minimalizaci do tray ikonky na hlavním panelu lze provést levým klikem na tuto ikonu.
+
+
+
+Známé problémy:
+
+- Aplikace umí ukládat nastavení a pozici okna do souboru INI, ale pouze s právy administrátora,
+
+- maximální čas odpočtu je 23h 59min 59s.
