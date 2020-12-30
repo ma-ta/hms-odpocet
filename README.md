@@ -15,7 +15,7 @@
 
 **Kompatibilita:** Windows XP SP3 &ndash; Windows 10 20H2 (ověřeno)
 
-*Starý školní projekt v Delphi (absence zdrojových kódů => finální verze)*
+*Starý školní projekt v Delphi z roku 2010 (absence zdrojových kódů)*
 
 ### Screenshoty:
 
