@@ -6,7 +6,8 @@
 
 - odpočet času, pozastavení odpočtu
 - vypnutí PC nebo odhlášení uživatele
-- zobrazení miniaturní aplikace vždy v popředí
+- zobrazení okna aplikace vždy v popředí
+- přichytávání k rohům obrazovky,
 - znázornění odpočtu progress barem na hlavním panelu
 - minimalizace do tray ikony (levým klikem na tuto ikonku)
 - systémová oznámení před koncem odpočtu
