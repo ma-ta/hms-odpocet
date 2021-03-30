@@ -27,6 +27,8 @@
 
 ### Screenshoty:
 
-![HMS Odpočet](/hms-odpocet-1.png)
+![HMS Odpočet - Win10](/hms-odpocet-1.png)
 
-![HMS Odpočet](/hms-odpocet-2.png)
+![HMS Odpočet - Win10](/hms-odpocet-2.png)
+
+![HMS Odpočet - WinXP](/hms-odpocet-winxp.png)
