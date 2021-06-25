@@ -14,7 +14,7 @@
 
 ### Ke stažení:
 
-**Kompatibilita:** Windows XP SP3 &ndash; Windows 10 20H2 (ověřeno)
+**Kompatibilita:** Windows XP SP3 &ndash; Windows 10 21H1 (ověřeno)
 - [HMS Odpočet (win-x86)](//github.com/ma-ta/hms-odpocet/raw/main/HMS_Odpocet.sfx.exe)
 
 
