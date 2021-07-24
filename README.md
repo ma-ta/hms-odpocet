@@ -11,7 +11,7 @@
 - znázornění odpočtu progress barem na hlavním panelu
 - minimalizace do tray ikony (levým klikem na tuto ikonku)
 - systémová oznámení:
-  - 60 s před vypnutím/odhlášením,
+  - 60 s před vypnutím/odhlášením (zvukový alert 5 s před koncem),
   - 30 s před koncem odpočtu,
   - na konci odpočtu
 
