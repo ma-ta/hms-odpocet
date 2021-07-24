@@ -10,7 +10,10 @@
 - přichytávání k rohům obrazovky,
 - znázornění odpočtu progress barem na hlavním panelu
 - minimalizace do tray ikony (levým klikem na tuto ikonku)
-- systémová oznámení před koncem odpočtu
+- systémová oznámení:
+  - 60 s před vypnutím/odhlášením,
+  - 30 s před koncem odpočtu,
+  - na konci odpočtu
 
 ### Ke stažení:
 
