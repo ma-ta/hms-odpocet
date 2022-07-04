@@ -2,6 +2,9 @@
 
 > Utilita na odpočet času a vypnutí PC
 
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ma-ta/hms-odpocet?include_prereleases)
+![GitHub](https://img.shields.io/github/license/ma-ta/hms-odpocet)
+
 ### Funkce:
 
 - odpočet času, pozastavení odpočtu
@@ -17,7 +20,7 @@
 
 ### Ke stažení:
 
-**Kompatibilita:** Windows XP SP3 &ndash; Windows 10 21H1 (ověřeno)
+**Kompatibilita:** Windows XP SP3 &ndash; Windows 11 21H2
 - [HMS Odpočet (win-x86)](//github.com/ma-ta/hms-odpocet/raw/main/HMS_Odpocet.sfx.exe)
 
 
