@@ -23,7 +23,6 @@
 **Kompatibilita:** Windows XP SP3 &ndash; Windows 11 22H2
 - [HMS Odpočet (Windows-x86)](//github.com/ma-ta/hms-odpocet/raw/main/HMS_Odpocet.sfx.exe)
 
-
 ### Známé nedostatky:
 
 > **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
@@ -32,6 +31,8 @@
 - maximální čas odpočtu je 23h 59min 59s.
 
 ### Screenshoty:
+
+- [Všechny snímky obrazovky](screenshoty/)
 
 Windows 11:
 
