@@ -1,9 +1,9 @@
 HMS ODPOČET
 
 
-Freeware | CC BY-SA 4.0
+Freeware | GNU GPLv3
 
-© 2010–2021 Martin TÁBOR
+© 2010–2022  Martin TÁBOR
 
 
 Instalátor extrahuje jeden spustitelný soubor do Vámi zvolené složky. Aplikaci je poté možné spustit nebo odstranit jednoduchým smazáním daného souboru.

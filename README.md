@@ -20,21 +20,21 @@
 
 ### Ke stažení:
 
-**Kompatibilita:** Windows XP SP3 &ndash; Windows 11 21H2
+**Kompatibilita:** Windows XP SP3 &ndash; Windows 11 22H2
 - [HMS Odpočet (win-x86)](//github.com/ma-ta/hms-odpocet/raw/main/HMS_Odpocet.sfx.exe)
 
 
 ### Známé nedostatky:
 
-> **Starý školní projekt v Delphi z roku 2010 (ztráta zdrojových kódů &ndash; nebude opraveno)**
+> **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
 
 - Aplikace umí ukládat poslední nastavení a pozici okna, ale pouze s právy administrátora (soubor *C:\Windows\hms_odpocet.ini*),
 - maximální čas odpočtu je 23h 59min 59s.
 
 ### Screenshoty:
 
-![HMS Odpočet - Win10](/hms-odpocet-1.png)
+Windows 11:
+![HMS Odpočet - Win11](hms-odpocet-win11.png)
 
-![HMS Odpočet - Win10](/hms-odpocet-2.png)
-
-![HMS Odpočet - WinXP](/hms-odpocet-winxp.png)
+Windows XP:
+![HMS Odpočet - WinXP](hms-odpocet-winxp.png)
