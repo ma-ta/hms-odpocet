@@ -28,7 +28,8 @@
 > **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
 
 - Aplikace umí ukládat poslední nastavení a pozici okna, ale pouze s právy administrátora (soubor *C:\Windows\hms_odpocet.ini*),
-- maximální čas odpočtu je 23h 59min 59s.
+- zastarávající GUI (není responzivní &ndash; problém u současných vysokých rozlišení),
+- maximální nastavitelný čas odpočtu je 23 hodin 59 minut a 59 sekund.
 
 ### Screenshoty:
 
@@ -36,4 +37,4 @@
 
 Windows 11:
 
-![Snímek obrazovky - HMS Odpočet (Win11)](screenshoty/hms-odpocet-win11.png)
+![Snímek obrazovky &ndash; HMS Odpočet (Win11)](screenshoty/hms-odpocet-win11.png)
