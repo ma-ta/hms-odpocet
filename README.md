@@ -35,6 +35,6 @@
 
 - [Všechny snímky obrazovky](screenshoty/)
 
-Windows 11:
+Windows 11 (22H2):
 
 ![Snímek obrazovky &ndash; HMS Odpočet (Win11)](screenshoty/hms-odpocet-win11.png)
