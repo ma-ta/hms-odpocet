@@ -34,7 +34,9 @@
 ### Screenshoty:
 
 Windows 11:
+
 ![HMS Odpočet - Win11](hms-odpocet-win11.png)
 
 Windows XP:
+
 ![HMS Odpočet - WinXP](hms-odpocet-winxp.png)
