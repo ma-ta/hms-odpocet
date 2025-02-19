@@ -21,7 +21,7 @@
 ### Ke stažení:
 
 **Kompatibilita:** Windows XP (SP3) &ndash; Windows 11 (24H2)
-- [HMS Odpočet (Windows-x86)](//github.com/ma-ta/hms-odpocet/releases/download/v1.2.0/HMS_Odpocet.sfx.exe)
+- [HMS Odpočet (Windows-x86)](//github.com/ma-ta/hms-odpocet/releases/download/v1.2.0/HMS-Odpocet-1.2.sfx.exe)
 
 ### Známé nedostatky:
 
