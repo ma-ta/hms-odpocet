@@ -1,0 +1,8 @@
+HMS ODPOČET
+
+Freeware | The Unlicense
+github.com/ma-ta/hms-odpocet
+© 2010–2025  Martin TÁBOR
+
+
+Pozn.: Minimalizaci do tray ikonky na hlavním panelu lze provést levým klikem na tuto ikonu.
