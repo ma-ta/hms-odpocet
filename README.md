@@ -23,6 +23,10 @@
 **Kompatibilita:** Windows XP (SP3) &ndash; Windows 11 (24H2)
 - [HMS Odpočet (Windows-x86)](//github.com/ma-ta/hms-odpocet/releases/download/v1.2.0/HMS-Odpocet-1.2.sfx.exe)
 
+#### Použité technologie:
+- CodeGear RAD Studio 2010 (14.0.3593.25826)
+- Windows VCL Application&nbsp;&ndash;&nbsp;Delphi
+
 ### Známé nedostatky:
 
 > **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
