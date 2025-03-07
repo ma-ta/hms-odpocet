@@ -32,7 +32,7 @@
 > **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
 
 - Aplikace umí ukládat poslední nastavení a pozici okna, ale pouze s právy administrátora (soubor *C:\Windows\hms_odpocet.ini*),
-- zastarávající GUI (není responzivní &ndash; problém u současných vysokých rozlišení),
+- zastarávající GUI (není responzivní &ndash; problém u současných vysokých rozlišení a DPI),
 - maximální nastavitelný čas odpočtu je 23 hodin 59 minut a 59 sekund.
 
 ### Screenshoty:
