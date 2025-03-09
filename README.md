@@ -21,14 +21,18 @@
 ### Ke stažení:
 
 **Kompatibilita:** Windows XP (SP3) &ndash; Windows 11 (24H2)
-- [HMS Odpočet (Windows-x86)](//github.com/ma-ta/hms-odpocet/releases/download/v1.2.0/HMS-Odpocet-1.2.sfx.exe)
+- [HMS Odpočet 1.2 (win-x86, 2010-04-04)](//github.com/ma-ta/hms-odpocet/releases/download/v1.2.0/HMS-Odpocet-1.2.sfx.exe)
+
+#### Použité technologie:
+- CodeGear RAD Studio 2010 (14.0.3593.25826)
+- Windows VCL Application&nbsp;&ndash;&nbsp;Delphi
 
 ### Známé nedostatky:
 
 > **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
 
 - Aplikace umí ukládat poslední nastavení a pozici okna, ale pouze s právy administrátora (soubor *C:\Windows\hms_odpocet.ini*),
-- zastarávající GUI (není responzivní &ndash; problém u současných vysokých rozlišení),
+- zastarávající GUI (není responzivní &ndash; problém u současných vysokých rozlišení a DPI),
 - maximální nastavitelný čas odpočtu je 23 hodin 59 minut a 59 sekund.
 
 ### Screenshoty:
