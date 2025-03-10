@@ -9,6 +9,23 @@ __COMPAT_LAYER na "GdiDPIScaling DPIUnaware" pro zajištění lepšího škálov
 monitorech s vysokým rozlišením a DPI (proměnná prostředí odpovídá ručnímu zapnutí High DPI
 scalling override: System (Enhanced) v dialogu Vlastnosti souboru - Kompatibilita.
 
+NEVYŘEŠENÉ (neřešené) PROBLÉMY:
+A)
+Jedná se o bitmapové škálování, vektorové škálování např. pomocí <dpiAware> či <dpiAwareness>
+v manifestu aplikace vede k oříznutí části okna. Byla by zřejmě nutná ruční změna pozic a velikostí
+některých prvků, ale velikost okna je v režii určité programové metody (kvůli skrývání části Nastavení).
+Velikost při spuštění např. neodpovídá nastaveným 208 px ve vlastnostech formuláře (TForm1.ClientHeight)
+- okno je menší. Byla by tak nutná hlubší analýza, jak aplikace pracuje, a změna chování přes úpravu
+instrukcí nebo proměnních ideálně pomocí pokročilejšího disassembleru či
+dekompilátoru (Hex-Rays IDA Pro apod.). IDA (oproti Ghidra) umí některé metody Delphi pojmenovat
+originálními názvy dle zdrojového kódu, což nelze hodnotit jinak než jako vysoce praktické.
+B)
+Obdobný problém je s načítáním a ukládáním inicializačního souboru hms_odpocet.ini. Aplikace má snahu
+jej uložit do složky Windows, k níž ovšem nemá přístup, pakliže neběží s oprávněními správce (automatické
+vyžádání řešitelné v Manifestu, ale nadbytečné). Např. pro přípravu instalátoru (Inno Setup apod.)
+by bylo velmi vhodné, kdyby aplikace ukládala soubor INI do adresáře, kde se nachází binárka
+spuštěného procesu.
+
 Použité nástroje:
 
 - Heaventools PE Explorer 1.99 R6
