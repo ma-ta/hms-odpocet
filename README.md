@@ -24,6 +24,9 @@
 - [HMS Odpočet 1.3 (win-x86)](https://github.com/ma-ta/hms-odpocet/releases/download/v1.3.0/HMS_Odpocet_1.3.exe)
 - [skript pro spuštění s lepším škálováním](https://github.com/ma-ta/hms-odpocet/releases/download/v1.3.0/HMS_Odpocet_1.3.bat)
 
+  (příp. pravým tl. na soubor: Vlastnosti&nbsp;&ndash;&nbsp;Kompatibilita a nastavit High DPI scalling override
+  na System Enhanced)
+
 ### Známé nedostatky:
 
 > **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
