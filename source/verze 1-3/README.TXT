@@ -12,13 +12,13 @@ scalling override: System (Enhanced) v dialogu Vlastnosti souboru - Kompatibilit
 
 NEVYŘEŠENÉ (neřešené) PROBLÉMY:
 
-A)
+A)  (ČÁSTEČNĚ JIŽ ŘEŠENO PŘES Hex-Rays IDA Free - viz níže)
 Jedná se o bitmapové škálování, vektorové škálování např. pomocí <dpiAware> či <dpiAwareness>
 v manifestu aplikace vede k oříznutí části okna. Byla by zřejmě nutná ruční změna pozic a velikostí
 některých prvků, ale velikost okna je v režii určité programové metody (kvůli skrývání části Nastavení).
 
-Velikost při spuštění např. neodpovídá nastaveným 208 px ve vlastnostech formuláře (TForm1.ClientHeight)
-- okno je menší. Byla by tak nutná hlubší analýza, jak aplikace pracuje, a změna chování přes úpravu
+Velikost při spuštění např. neodpovídá nastaveným 208 px ve vlastnostech formuláře (TForm1.ClientHeight),
+okno je menší. Byla by tak nutná hlubší analýza, jak aplikace pracuje, a změna chování přes úpravu
 instrukcí nebo proměnných ideálně pomocí pokročilejšího disassembleru či dekompilátoru (Hex-Rays IDA Pro).
 IDA (oproti Ghidra) umí některé metody Delphi pojmenovat originálními názvy dle zdrojového kódu, což
 nelze hodnotit jinak než jako vysoce praktické.
