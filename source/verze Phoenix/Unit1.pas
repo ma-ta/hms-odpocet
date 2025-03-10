@@ -29,6 +29,7 @@ type
     CheckBox_Odhlasit: TCheckBox;
     CheckBox_VypnoutPC: TCheckBox;
     BitBtn_Nastaveni: TBitBtn;
+    Bevel_Displej: TBevel;
   private
     { Private declarations }
   public

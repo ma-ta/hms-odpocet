@@ -14,6 +14,7 @@ object Form1: TForm1
   Font.Style = []
   FormStyle = fsStayOnTop
   Position = poDesktopCenter
+  ScreenSnap = True
   TextHeight = 15
   object Label_Hodiny: TLabel
     Left = 8
@@ -22,11 +23,11 @@ object Form1: TForm1
     Height = 51
     Alignment = taCenter
     AutoSize = False
-    Caption = '0'
+    Caption = '19'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
-    Font.Name = 'Segoe UI'
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
     Font.Style = [fsBold]
     ParentFont = False
     Layout = tlCenter
@@ -38,11 +39,11 @@ object Form1: TForm1
     Height = 51
     Alignment = taCenter
     AutoSize = False
-    Caption = '0'
+    Caption = '8'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
-    Font.Name = 'Segoe UI'
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
     Font.Style = [fsBold]
     ParentFont = False
     Layout = tlCenter
@@ -54,11 +55,11 @@ object Form1: TForm1
     Height = 51
     Alignment = taCenter
     AutoSize = False
-    Caption = '0'
+    Caption = '8'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
-    Font.Name = 'Segoe UI'
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
     Font.Style = [fsBold]
     ParentFont = False
     Layout = tlCenter
@@ -73,8 +74,8 @@ object Form1: TForm1
     Caption = ':'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
-    Font.Name = 'Segoe UI'
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
     Font.Style = [fsBold]
     ParentFont = False
     Layout = tlCenter
@@ -89,8 +90,8 @@ object Form1: TForm1
     Caption = ':'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
-    Font.Name = 'Segoe UI'
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
     Font.Style = [fsBold]
     ParentFont = False
     Layout = tlCenter
@@ -125,7 +126,12 @@ object Form1: TForm1
     Top = 92
     Width = 255
     Height = 2
-    Visible = False
+  end
+  object Bevel_Displej: TBevel
+    Left = 8
+    Top = 8
+    Width = 165
+    Height = 51
   end
   object Edit_Hodiny: TEdit
     Left = 8

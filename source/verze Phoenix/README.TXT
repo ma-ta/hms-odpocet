@@ -1,5 +1,4 @@
-použité IDE: Embarcadero Delphi 12 (29.0.53982.0329)
-
+-- použité IDE: Embarcadero Delphi 12 (29.0.53982.0329) --
 
 Adresář obsahuje náčrtek projektu Windows VCL Application v Delphi.
 Protože zdrojové kódy původní verze (v1.2) z roku 2010 již neexistují,
