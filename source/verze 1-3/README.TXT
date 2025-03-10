@@ -56,8 +56,10 @@ Použité nástroje:
   (https://hex-rays.com/ida-free)
 
   - úprava barev ciferníku (Label1-Label5) při odpočtu:
-    - zaškrtnutý CheckBox Vypnout PC: 0x80 -> 0x8B (clWebDarkRed - tmavě červená [fce: _TForm1_ChckBx_VypPCClick]),
-    - zaškrtnuté CheckBox Odhlásit:   0x80 -> 0x1E69D2 (clWebChocolate - tmavě oranžová) [fce: _TForm1_ChckBx_LogOutClick].
+    - zaškrtnutý CheckBox Vypnout PC: 0x80 -> 0x8B (clWebDarkRed - tmavě červená)
+      [fce: _TForm1_ChckBx_VypPCClick],
+    - zaškrtnuté CheckBox Odhlásit:   0x80 -> 0x1E69D2 (clWebChocolate - tmavě oranžová)
+      [fce: _TForm1_ChckBx_LogOutClick].
   - změna programově nastavované velikosti okna (tlačítko "Nastavení") kvůli ořezávání prvků při DPI škálování:
     - fce. [_TForm1_Timer2Timer] na offsetu [4B7FA0]
        - instrukce [cmp   eax, 0D0h] na offsetu [B73B6] porovnává aktuální velikost okna s konstantou 208,
