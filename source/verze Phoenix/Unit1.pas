@@ -30,6 +30,7 @@ type
     CheckBox_VypnoutPC: TCheckBox;
     BitBtn_Nastaveni: TBitBtn;
     Bevel_Displej: TBevel;
+    procedure Button_SpustitClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -42,5 +43,13 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.Button_SpustitClick(Sender: TObject);
+begin
+  Form1.Label_Dvojtecka1.Font.Color := clWebDarkRed;
+  Form1.Label_Minuty.Font.Color := clWebDarkRed;
+  Form1.Label_Dvojtecka2.Font.Color := clWebChocolate;
+  Form1.Label_Sekundy.Font.Color := clWebChocolate;
+end;
 
 end.

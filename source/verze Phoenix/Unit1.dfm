@@ -73,7 +73,7 @@ object Form1: TForm1
     AutoSize = False
     Caption = ':'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clDarkred
     Font.Height = -16
     Font.Name = 'Segoe UI Semibold'
     Font.Style = [fsBold]
@@ -89,7 +89,7 @@ object Form1: TForm1
     AutoSize = False
     Caption = ':'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clChocolate
     Font.Height = -16
     Font.Name = 'Segoe UI Semibold'
     Font.Style = [fsBold]
@@ -211,6 +211,7 @@ object Form1: TForm1
     ShowHint = True
     TabOrder = 3
     TabStop = False
+    OnClick = Button_SpustitClick
   end
   object Button_Zrusit: TButton
     Left = 187
