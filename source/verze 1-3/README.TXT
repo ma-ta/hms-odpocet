@@ -16,8 +16,8 @@ v manifestu aplikace vede k oříznutí části okna. Byla by zřejmě nutná ru
 některých prvků, ale velikost okna je v režii určité programové metody (kvůli skrývání části Nastavení).
 Velikost při spuštění např. neodpovídá nastaveným 208 px ve vlastnostech formuláře (TForm1.ClientHeight)
 - okno je menší. Byla by tak nutná hlubší analýza, jak aplikace pracuje, a změna chování přes úpravu
-instrukcí nebo proměnných ideálně pomocí pokročilejšího disassembleru či
-dekompilátoru (Hex-Rays IDA Pro apod.). IDA (oproti Ghidra) umí některé metody Delphi pojmenovat
+instrukcí nebo proměnných ideálně pomocí pokročilejšího disassembleru či dekompilátoru (Hex-Rays IDA Pro).
+IDA (oproti Ghidra) umí některé metody Delphi pojmenovat
 originálními názvy dle zdrojového kódu, což nelze hodnotit jinak než jako vysoce praktické.
 B)
 Obdobný problém je s načítáním a ukládáním inicializačního souboru hms_odpocet.ini. Aplikace má snahu
