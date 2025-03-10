@@ -24,7 +24,7 @@ Použité nástroje:
     - změna Hintu tlačítka OK: "Spustí odpočet" -> "Spustit odpočet"
 
 - HxD Hex Editor 2.5.0.0
-  (https://mh-nexus.de)
+  (https://mh-nexus.de/en)
 
   - změna čísla verze aplikace (zobrazováno v titulku okna aplikace) - offset 0xB6350
   - úprava textu v dialogu O aplikaci (easter egg) - offset 0x6556
