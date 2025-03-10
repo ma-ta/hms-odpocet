@@ -44,9 +44,24 @@ Použité nástroje:
     - změna písma ciferníku (Label1 až Label5) Tahoma -> Segoe UI Semibold, Font.Height -12 -> -16
     - lepší přichytávání k okrajům obrazovky: Form1.SnapBuffer 5 -> 10 (výchozí v IDE Delphi 12)
     - změna Hintu tlačítka OK: "Spustí odpočet" -> "Spustit odpočet"
+    - změna Form1.ClientHeight z 208 -> 220 (i když nemá význam, protože ve řešeno fci. Form1Create)
 
 - HxD Hex Editor 2.5.0.0
   (https://mh-nexus.de/en)
 
   - změna čísla verze aplikace (zobrazováno v titulku okna aplikace) - offset 0xB6350
   - úprava textu v dialogu O aplikaci (easter egg) - offset 0x6556
+
+- Hex-Rays IDA Free 9.1.250226
+  (https://hex-rays.com/ida-free)
+
+  - změna programově nastavované velikosti okna (tlačítko "Nastavení") kvůli ořezávání prvků při DPI škálování:
+    - fce. [_TForm1_Timer2Timer] na offsetu [4B7FA0]
+       - instrukce [cmp   eax, 0D0h] na offsetu [B73B6] porovnává aktuální velikost okna s konstantou 208,
+         po stisknutí tlačítka "Nastavení" se zvětšování formuláře zastaví po dosažení této výšky (v px).
+         Ručně přepsána hodnota 0xD0 (208) -> 0xDC (220) v hexaeditoru.
+       - instrukce [cmp   eax, 5Eh] na offsetu [B7419] zajišťuje obdobně skrytí (zmenšení okna) Nastavení.
+         Změněno z hodnoty 0x5E (94) -> na 0x64 (tj. 100 px).
+    - fce [_TForm1_FormCreate] na offsetu [4B6D0C]
+      - instrukce [mov   edx, 5Eh] na offsetu [B6126] zajišťuje nastavení velikosti okna aplikace po spuštění,
+        rovněž upraveno z 0x5E -> 0x64.
