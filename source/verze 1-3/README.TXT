@@ -58,10 +58,10 @@ Použité nástroje:
   - změna programově nastavované velikosti okna (tlačítko "Nastavení") kvůli ořezávání prvků při DPI škálování:
     - fce. [_TForm1_Timer2Timer] na offsetu [4B7FA0]
        - instrukce [cmp   eax, 0D0h] na offsetu [B73B6] porovnává aktuální velikost okna s konstantou 208,
-         při změně konstanty se po stisknutí tlačítka "Nastavení" zvětšování formuláře zastaví po dosažení této
-         výšky (v px) změněno z hodnoty 0xD0 (208) -> 0xDC (220)
-       - instrukce [cmp   eax, 5Eh] na offsetu [B7419] zajišťuje obdobně skrytí (zmenšení okna) Nastavení
-         hodnota 0x5E (94) změněna na 0x64 (tj. 100 px)
+         po stisknutí tlačítka "Nastavení" se zvětšování formuláře zastaví po dosažení této výšky (v px).
+         Ručně přepsána hodnota 0xD0 (208) -> 0xDC (220) v hexaeditoru.
+       - instrukce [cmp   eax, 5Eh] na offsetu [B7419] zajišťuje obdobně skrytí (zmenšení okna) Nastavení.
+         Změněno z hodnoty 0x5E (94) -> na 0x64 (tj. 100 px).
     - fce [_TForm1_FormCreate] na offsetu [4B6D0C]
       - instrukce [mov   edx, 5Eh] na offsetu [B6126] zajišťuje nastavení velikosti okna aplikace po spuštění,
-        rovněž upraveno z 0x5E -> 0x64
+        rovněž upraveno z 0x5E -> 0x64.
