@@ -9,6 +9,8 @@ __COMPAT_LAYER na "GdiDPIScaling DPIUnaware" pro zajištění lepšího škálov
 monitorech s vysokým rozlišením a DPI (proměnná prostředí odpovídá ručnímu zapnutí High DPI
 scalling override: System (Enhanced) v dialogu Vlastnosti souboru - Kompatibilita.
 
+![Porovnání verzí](v1-2_vs_v1-3.png)
+
 
 NEVYŘEŠENÉ (neřešené) PROBLÉMY:
 
