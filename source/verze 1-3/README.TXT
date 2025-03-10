@@ -14,6 +14,7 @@ Použité nástroje:
 - Heaventools PE Explorer 1.99 R6
   (https://www.heaventools.com/overview.htm)
 
+  - Header Info - změna Time Date Stamp z 2010-04-04 13:45:23 -> 2025-03-08 19:03:03
   - Manifest - drobné úpravy
   - Version - upravené info o souboru a verzi aplikace
   - RC Data:
