@@ -11,9 +11,11 @@ scalling override: System (Enhanced) v dialogu Vlastnosti souboru - Kompatibilit
 
 ![Porovnání verzí](v1_2-vs-v1_3.png)
 
-#### Varianta HMS Odpočet 1.3b
-- pokus o zapnutí lepšího vektorového DPI škálování (správně funguje jen u konkrétních
-konfigurací&nbsp;&ndash;&nbsp;např. nastavené škálování na 125 % apod.)
+#### Soubory
+- **varianta 1.3b** je pokus o zapnutí lepšího vektorového DPI škálování (správně funguje jen u konkrétních
+konfigurací&nbsp;&ndash;&nbsp;např. zvětšení nastavené na 125 % apod.)
+- skript **HMS_Odpocet_1.3.bat** slouží pro spuštění v módu GDI škálování&nbsp;&ndash;&nbsp;obdobně možno ručně
+přes Vlastnosti souboru–Kompatibilita: zde High DPI scalling override na System Enhanced)
 
 ### Souhrn úprav/patchů (+ použité nástroje):
 
