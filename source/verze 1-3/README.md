@@ -11,6 +11,10 @@ scalling override: System (Enhanced) v dialogu Vlastnosti souboru - Kompatibilit
 
 ![Porovnání verzí](v1-2_vs_v1-3.png)
 
+#### Varianta HMS Odpočet 1.3b
+- pokus o zapnutí lepšího vektorového DPI škálování (správně funguje jen u konkrétních
+konfigurací&nbsp;&ndash;&nbsp;např. nastavené škálování na 125 % apod.)
+
 ### Souhrn úprav/patchů (+ použité nástroje):
 
 - Heaventools PE Explorer 1.99 R6
@@ -44,12 +48,12 @@ scalling override: System (Enhanced) v dialogu Vlastnosti souboru - Kompatibilit
     - fce. [_TForm1_Timer2Timer] na offsetu [4B7FA0]
        - instrukce [cmp   eax, 0D0h] na offsetu [B73B6] porovnává aktuální velikost okna s konstantou 208,
          po stisknutí tlačítka "Nastavení" se zvětšování formuláře zastaví po dosažení této výšky (v px).
-         Ručně přepsána hodnota 0xD0 (208) -> 0x118 (tj. 180 px) v hexaeditoru.
+         Ručně přepsána hodnota 0xD0 (208) -> 0xDC (220) v hexaeditoru.
        - instrukce [cmp   eax, 5Eh] na offsetu [B7419] zajišťuje obdobně skrytí (zmenšení okna) Nastavení.
-         Změněno z hodnoty 0x5E (94) -> na 0x7D (tj. 125 px).
+         Změněno z hodnoty 0x5E (94) -> na 0x64 (tj. 100 px).
     - fce [_TForm1_FormCreate] na offsetu [4B6D0C]
       - instrukce [mov   edx, 5Eh] na offsetu [B6126] zajišťuje nastavení velikosti okna aplikace po spuštění,
-        rovněž upraveno z 0x5E -> 0x7D.
+        rovněž upraveno z 0x5E -> 0x64.
 
 ### NEVYŘEŠENÉ (neřešené) PROBLÉMY:
 
