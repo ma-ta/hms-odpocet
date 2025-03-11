@@ -23,7 +23,7 @@
 **Kompatibilita:** Windows XP (SP3) &ndash; Windows 11 (24H2)
 - [HMS Odpočet 1.3 (win-x86)](https://github.com/ma-ta/hms-odpocet/releases/download/v1.3.0/HMS_Odpocet_1.3.exe)
 - [skript pro spuštění s lepším škálováním](https://github.com/ma-ta/hms-odpocet/releases/download/v1.3.0/HMS_Odpocet_1.3.bat)
-  *(příp. pravým tl. na soubor: Vlastnosti&nbsp;&ndash;&nbsp;Kompatibilita a nastavit High DPI scalling override na System Enhanced)*
+  *(skript spustí aplikaci v módu GDI škálování&nbsp;&ndash;&nbsp;obdobně možné ručně přes Vlastnosti souboru&ndash;Kompatibilita: zde High DPI scalling override na System Enhanced)*
 
 ### Známé nedostatky:
 
