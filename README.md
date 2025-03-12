@@ -27,7 +27,7 @@
 
 ### Známé nedostatky:
 
-> **Starý školní projekt v Delphi z roku 2010 (pro ztrátu zdrojových kódů již nebude opraveno)**
+> **Starý školní projekt v Delphi z roku 2010 (původní zdrojové kódy ztraceny&nbsp;&ndash;&nbsp;viz [info k verzi 1.3](https://github.com/ma-ta/hms-odpocet/tree/main/source/verze%201-3))**
 
 - Aplikace umí ukládat poslední nastavení a pozici okna, ale pouze s právy administrátora (soubor *C:\Windows\hms_odpocet.ini*),
 - zastarávající GUI (není responzivní &ndash; problém u současných vysokých rozlišení),
