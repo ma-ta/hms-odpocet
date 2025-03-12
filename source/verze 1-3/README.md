@@ -41,6 +41,8 @@ přes Vlastnosti souboru–Kompatibilita: zde High DPI scalling override na Syst
 - Hex-Rays IDA Free 9.1.250226
   (https://hex-rays.com/ida-free)
 
+  ![identifikované funkce a jejich adresy](ida_funkce_tform1.png)
+
   - úprava barev ciferníku (Label1-Label5) při odpočtu:
     - zaškrtnutý CheckBox Vypnout PC: 0x80 -> 0x8B (clWebDarkRed - tmavě červená)
       [fce: _TForm1_ChckBx_VypPCClick],
