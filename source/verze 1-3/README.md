@@ -30,7 +30,7 @@ přes Vlastnosti souboru–Kompatibilita: zde High DPI scalling override na Syst
     - změna písma ciferníku (Label1 až Label5) Tahoma -> Segoe UI Semibold, Font.Height -12 -> -16
     - lepší přichytávání k okrajům obrazovky: Form1.SnapBuffer 5 -> 10 (výchozí v IDE Delphi 12)
     - změna Hintu tlačítka OK: "Spustí odpočet" -> "Spustit odpočet"
-    - změna Form1.ClientHeight z 208 -> 220 (i když nemá význam, protože ve řešeno fci. Form1Create)
+    - změna Form1.ClientHeight z 208 -> 220 (i když nemá prakticky význam, protože řešeno ve fci. _TForm1_FormCreate&nbsp;&ndash;&nbsp;viz níže)
 
 - HxD Hex Editor 2.5.0.0
   (https://mh-nexus.de/en)
