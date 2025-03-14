@@ -55,13 +55,10 @@ přes Vlastnosti souboru–Kompatibilita: zde High DPI scalling override na Syst
          Ručně přepsána hodnota 0xD0 (208) -> 0xDC (220) v hexaeditoru.
        - instrukce [cmp   eax, 5Eh] na offsetu [B7419] zajišťuje obdobně skrytí (zmenšení okna) Nastavení.
          Změněno z hodnoty 0x5E (94) -> na 0x64 (tj. 100 px).
-    - fce [_TForm1_FormCreate] na offsetu [4B6D0C]
+    - fce. [_TForm1_FormCreate] na offsetu [4B6D0C]
       - instrukce [mov   edx, 5Eh] na offsetu [B6126] zajišťuje nastavení velikosti okna aplikace po spuštění,
         rovněž upraveno z 0x5E -> 0x64.
-
-### NEVYŘEŠENÉ (neřešené) PROBLÉMY:
-
-Načítání a ukládání inicializačního souboru hms_odpocet.ini. Aplikace má snahu jej uložit do složky Windows,
-k níž ovšem nemá přístup, pakliže neběží s oprávněními správce (automatické vyžádání řešitelné v Manifestu,
-ale nadbytečné). Např. pro přípravu instalátoru (Inno Setup apod.) by bylo velmi vhodné,
-kdyby aplikace ukládala soubor INI do adresáře, kde se nachází binárka spuštěného procesu.
+      - úprava stringu "hms_odpocet.ini" na offsetu [004B6F64] zpracovávaného ve fci. [_TForm1_FormCreate] instrukcí na 
+        offsetu [004B6D93] -> ".\hms_form1.ini"
+    - fce. [_TForm1_Ulozeni_INI] na offsetu [004B6B6C], úprava stringu na offset [004B6C70] "hms_odpocet.ini"
+      zpracovávaného instrukcí na offsetu [004B6B82] -> ".\hms_form1.ini".
