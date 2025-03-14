@@ -2,12 +2,14 @@ Aplikace v průběhu 15 let přeci jen zastarala a z důvodu absence zdrojových
 např. i jen pouhé překompilování v současné verze Embarcadero Delphi 12.
 
 A tak byl v roce 2025 původní spustitelné binárce dopřán drobný facelift za pomoci nástrojů
-a metod reverzního inženýrství :-)...
+a metod reverzního inženýrství :-)&hellip;
 
 Dále přidán skript.bat, který při spuštění aplikace nastaví proměnnou prostředí
 __COMPAT_LAYER na "GdiDPIScaling DPIUnaware" pro zajištění lepšího škálování na soudobých
 monitorech s vysokým rozlišením a DPI (proměnná prostředí odpovídá ručnímu zapnutí High DPI
 scalling override: System (Enhanced) v dialogu Vlastnosti souboru - Kompatibilita.
+
+Vytvořen instalátor pro Windows pomocí [Inno Setup](https://jrsoftware.org/isinfo.php).
 
 ![Porovnání verzí](v1_2-vs-v1_3.png)
 
